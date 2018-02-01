@@ -1,5 +1,5 @@
 # Database excersise 1 (Key-Value Stores)
-This is a mini project for the database course. The excersise is based off the description in the buttom of this [ressource](https://github.com/datsoftlyngby/soft2018spring-databases-teaching-material/blob/master/lecture_notes/01-Intro_to_DB.ipynb)
+This is a mini project for the database course. The excersise is based off the description in the buttom of this [resource](https://github.com/datsoftlyngby/soft2018spring-databases-teaching-material/blob/master/lecture_notes/01-Intro_to_DB.ipynb)
 ## Description
 This excersise goal is to build a simple database system in any language. I choose to build it in golang. The excersise needs to have implemented a hashmap-based index, functionality to store data on disk in binary file and read the data again to reinstantiate the database after a shutdown.
 

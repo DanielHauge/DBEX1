@@ -8,6 +8,7 @@ The result is a go library(SimpleGoDB.go) which can be used in any go program. F
 ------------------
 ## How to run it (example program)
 - Pre-conditions: Have go installed. If you do not have go installed, install it [HERE](https://golang.org/dl/)
+
 To run the example program, simply start by clonning the repo. From your prefered terminal. (I'm using git bash)
 ```
 git clone https://github.com/Games-of-Threads/DBEX1-DFH.git

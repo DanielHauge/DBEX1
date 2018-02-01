@@ -25,7 +25,7 @@ Now the program should be running. The example program is a simple command line 
 - delete [key] ```This command will delete the entry at the given key. eg. delete 9001```
 - exit ```This command will gracefully shut down the pgoram, but will save the database before doing so```
 
-## How to integrate it (Use it in your project)
+## How to integrate it (Use it in your go project)
 Blabla
 ## Why and when you should use this, and vice versa.
 Blabla

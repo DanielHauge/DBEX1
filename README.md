@@ -120,10 +120,16 @@ SimpleDB.Save()
 ```
 
 ## Why and when you should use this, and vice versa.
+a few pro's and cons of this type of approach to a database.
+
 Advantages | Disadvantages
 ----------------------- | ------------------------------------------
 Fast lookup and insertion during runtime	| Slow during save to disk (Does not edit changed data, it deletes previus and saves new)
 Simple to use   | Database only convinently accesible from program it is integrated with
 Types can be changed easily | Needs to store data in memory
 
-
+Here's a few critiria where it wouldn't be a bad idea to use this based off the pro's and cons.
+- when you either don't have to much data or don't care about time when exiting/saving the data to disk.
+- when the data doesn't need to be accesed by anyone other than the program.
+- When you need/want fast lookup and insertion during runtime of a program.
+- When you have no problems with memory usage

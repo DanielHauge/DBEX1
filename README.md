@@ -7,8 +7,8 @@ The result is a go library(SimpleGoDB.go) which can be used in any go program. F
 
 ------------------
 ## How to run it (example program)
-- Pre-conditions: Have go installed. If you do not have go installed follow this Guide:LINK
-To run the example program, simply start by clonning the repo. From your prefered terminal.
+- Pre-conditions: Have go installed. If you do not have go installed, install it [HERE](https://golang.org/dl/)
+To run the example program, simply start by clonning the repo. From your prefered terminal. (I'm using git bash)
 ```
 git clone https://github.com/Games-of-Threads/DBEX1-DFH.git
 ```
@@ -17,8 +17,6 @@ Then, go to the directory of the repository, and build and run with the followin
 go run Main.go SimpleGoDB.go
 ```
 Now the program should be running. The example program is a simple command line interface to use the library. The commands is as follows:
-
-
 
 - This command will initialize the database. If put in a database allready made, it will load the data, if not. It will create empty database, however this will not save it. (No point saving empty database. 
 

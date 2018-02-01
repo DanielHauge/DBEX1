@@ -103,15 +103,15 @@ example of using the library
 
 ```go
 ///// To initiaze DB
-DB := InitSDB("MyFirstSimpleDB")
+SimpleDB := InitSDB("MyFirstSimpleDB")
 ///// storing data
-DB.DB[3] = "Testing Testing ->"
-/////// Printing data
-println(DB.DB[3])
-/////// Fetching value from key
-myvariable := DB.DB[9001]
+SimpleDB.DB[3] = "Some value as a string"
+/////// Printing data that correspond to key 3
+println(SimpleDB.DB[3])
+/////// Fetching value from key and puts into variable
+myvariable := SimpleDB.DB[9001]
 ////// Save the database to binaryfile
-DB.Save()
+SimpleDB.Save()
 ```
 
 ## Why and when you should use this, and vice versa.

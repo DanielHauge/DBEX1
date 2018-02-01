@@ -18,13 +18,18 @@ go run Main.go SimpleGoDB.go
 ```
 Now the program should be running. The example program is a simple command line interface to use the library. The commands is as follows:
 
-```initsdb [dbname]```
+
 
 - This command will initialize the database. If put in a database allready made, it will load the data, if not. It will create empty database, however this will not save it. (No point saving empty database. 
 
-```savesdb```
+```initsdb [dbname]```
+
+
 
 - This command will save the database to binaryfile on the default directory (usualy the same place the programfiles are). but will however not close down the program
+
+```savesdb```
+
 - This will save the data in the hashmap. the key must be integer. eg. put 9001 it's over nine thousand!!!
 
 ```put [key] [value]```
@@ -115,4 +120,10 @@ SimpleDB.Save()
 ```
 
 ## Why and when you should use this, and vice versa.
-Blabla
+Advantages | Disadvantages
+----------------------- | ------------------------------------------
+Fast lookup and insertion during runtime	| Slow during save to disk (Does not edit changed data, it deletes previus and saves new)
+Simple to use   | Database only convinently accesible from program it is integrated with
+Types can be changed easily | Needs to store data in memory
+
+

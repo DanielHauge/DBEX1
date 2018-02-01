@@ -17,20 +17,35 @@ Then, go to the directory of the repository, and build and run with the followin
 go run Main.go SimpleGoDB.go
 ```
 Now the program should be running. The example program is a simple command line interface to use the library. The commands is as follows:
+
 ```initsdb [dbname]```
+
 - This command will initialize the database. If put in a database allready made, it will load the data, if not. It will create empty database, however this will not save it. (No point saving empty database. 
+
 ```savesdb```
+
 - This command will save the database to binaryfile on the default directory (usualy the same place the programfiles are). but will however not close down the program
 - This will save the data in the hashmap. the key must be integer. eg. put 9001 it's over nine thousand!!!
+
 ```put [key] [value]```
+
 - This will print the key and value of the given value. eg. view 9001
+
 ```view [key]```
+
 - This will list all data. Probably not so smart if the dataset becomes huge
+
 ```viewall```
+
 - This command will delete the entry at the given key. eg. delete 9001
+
 ```delete [key]```
+
 - This command will gracefully shut down the pgoram, but will save the database before doing so
+
 ```exit```
+
+-------------
 
 ## How to integrate it (Use it in your go project)
 Blabla
